@@ -5,7 +5,8 @@ const nextConfig = {
     formats: [
       'image/avif', 
       'image/webp'
-    ]
+    ],
+    domains: ['res.cloudinary.com']
   }
 }
 
