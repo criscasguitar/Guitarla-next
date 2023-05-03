@@ -33,6 +33,7 @@ export default function Guitar({guitar}) {
     }
 } */
 
+//se usa getStaticPaths si el routing es dinamico
 export async function getStaticPaths() {
     const response = await fetch(`${process.env.API_URL}/guitars`)
     const {data} = await response.json()

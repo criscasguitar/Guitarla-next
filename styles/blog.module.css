@@ -9,6 +9,10 @@
     font-weight: 900;
     font-size: 2.8rem;
     margin: 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
 }
 .fecha {
     font-size: 1.6rem;
@@ -19,9 +23,11 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
     overflow: hidden;
+    font-size: 2.3rem;
 }
 .texto {
     white-space: pre-wrap;
+    font-size: 2.5rem;
 }
 
 .mt-3 {
