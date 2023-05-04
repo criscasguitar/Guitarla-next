@@ -37,6 +37,12 @@ export default function Header() {
                     </a>
                 </Link>
 
+                <Link legacyBehavior href='/shoppingCart'>
+                    <a>
+                        <Image width={30} height={25} src='/img/carrito.png' alt='Cart image'/>
+                    </a>
+                </Link>
+
             </nav>
         </div>
     </header>

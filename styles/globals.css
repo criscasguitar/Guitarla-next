@@ -48,3 +48,6 @@ main {
   text-decoration: none;
   color: var(--primary);
 }
+h1 {
+  font-size: 3rem;
+}
